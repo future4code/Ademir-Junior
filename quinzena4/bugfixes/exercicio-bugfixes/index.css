@@ -110,19 +110,29 @@ td button {
     
 }
 
+div input {
+    border-bottom: 2px solid;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+   
+}
+
 td button:hover {
     background-color: #ffd000;
 
 }
 
-button:focus {
+td button:focus {
     color: white;
 
 }
-    
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+
+    
 }
 
 
