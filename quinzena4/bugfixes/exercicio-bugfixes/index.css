@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-h2 {
+h1 {
     background-color: #fe7e02;
     padding: 10px 5px 10px 5px;
     color: white;
@@ -69,10 +69,11 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    padding-top: 50px;
 }
 
 #container-de-descricao>ol {
-    padding: 15px 0px;
+    padding: 50px 0px;
 }
 
 #container-para-comprar {
