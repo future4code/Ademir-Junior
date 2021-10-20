@@ -107,8 +107,19 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+    
 }
 
+td button:hover {
+    background-color: #ffd000;
+
+}
+
+button:focus {
+    color: white;
+
+}
+    
 .container-do-search {
     margin-top: 20px;
     height: 100px;
