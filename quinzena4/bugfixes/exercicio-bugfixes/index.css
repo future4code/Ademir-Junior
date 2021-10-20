@@ -118,9 +118,10 @@ td button {
 
 
 #back-button {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100px;
     height: 20px;
+    margin-left: 15px;
     border: 1px solid black;
     border-radius: 5px;
     font-size: 10px;
@@ -128,5 +129,9 @@ td button {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #ff0000
+}
+
+div img {
+    width: 50px;
 }
