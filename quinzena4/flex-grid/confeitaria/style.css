@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page-grid-container {
+    display:inline;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: mediumvioletred;
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    flex-direction: 1;
+    color: rgb(0, 0, 0);
+    display: flex;
+    overflow: auto;
+}
+
+nav {
+    background-color: lightpink;
+    width: 500px;
+    flex-wrap: nowrap;
+}
+
+
+
+footer {
+    background-color: mediumvioletred;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
