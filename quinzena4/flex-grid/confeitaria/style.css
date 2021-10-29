@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page-grid-container {
+    display:inline;
+    flex-direction:column;
+    height: 100vh;
+}
+
+header {
+    background-color: mediumvioletred;
+    height: 70px;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0 60px;
+    align-items: center;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    flex-grow: 1;
+    display: flex;
+}
+
+nav {
+    background-color: lightpink;
+    width: 300px;
+    height: 100vh;
+}
+
+#container {
+    border: 20px solid white;
+    text-align: center;
+    
+}
+
+footer {
+    background-color: mediumvioletred;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
