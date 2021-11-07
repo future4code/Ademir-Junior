@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header container */
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 0 300px;
+    position: relative;
+    background-attachment:scroll;
+}
+
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #00d8ff;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0rem 2rem;
+    color: #ffffff;
+    margin-top: -40px;
+    font-style: italic;
+}
+
+.social-media {
+    margin-top: 1rem;
+    display: flex;
+    padding: 0 200px;
+}
+
+.social-media a {
+    text-decoration: white;
+    color: black;
+    padding: 1rem 3rem;
+    border: 1px solid none;
+    background-color: #00d8ff;
+    margin-left: 30px ;    
+}
+
+.social-media a:hover {
+    background-color: red;
+    color: white;
+}
+
+.menu-itens {
+    margin-top:-25rem;
+    display:flex;
+    padding: 200px 100px;
+    
+}
+
+.menu-itens a {
+    color: white;
+    padding: 1rem;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: -1rem;
+}
+
+.menu-itens a:hover {
+    color: red;
+}
+
